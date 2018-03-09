@@ -2,10 +2,12 @@
 
 # CV en ligne
 
-Exemple de mise en page:
-https://www.w3schools.com/w3css/tryw3css_templates_photo3.htm#contact
+Public visé: recruteurs dans le domaine du marketing sportif et international
 
 ## Première page:
+
+Exemple de mise en page:
+https://www.w3schools.com/w3css/tryw3css_templates_photo3.htm#contact
 
 - Photo arrondi centrée entouré de blanc au dessus du nom
 - Nom/ Prénom centré 
