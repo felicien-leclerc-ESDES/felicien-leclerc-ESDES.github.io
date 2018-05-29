@@ -13,6 +13,7 @@ https://www.w3schools.com/w3css/tryw3css_templates_photo3.htm#contact
 - Nom/ Prénom centré 
 - Image de fond costume cravate
 Scroll:
+- Photo arrondi centrée entouré de blanc en dessous du titre à propos
 - Zone de texte décrivant mon projet professionnel avec un fond grisé
 - Bottom: Partie contact en ligne avec logo linkedin et Icon
 
@@ -26,7 +27,8 @@ Bouton "en savoir +" avec lien vers site ESDES
 
 
 - Mes expériences
-Ligne temporel retraçant mon parcours professionnel avec une flêche allant vers mon projet final
+Expérience professionnel avec une image illustrant cette expérience 
+Deux colonnes avec une alternance entre l'image d'illustration ainsi que la description de cette expérience
 Bouton "en savoir +" avec lien vers site sur chaque entreprise
 https://themeforest.net/item/jordan-modern-onepage-resume-portfolio-theme/17130387?_ga=2.95818972.1570836128.1520603904-526060078.1520603904
 
