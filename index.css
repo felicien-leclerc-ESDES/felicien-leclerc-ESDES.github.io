@@ -1,17 +1,18 @@
-
-
+/*HEADER*/
 header { 
     margin: AUTO;
-    background-image: url(IMG/background.jpg);
-    height:100%;
+    background-image: url(images/formation.jpg);
+    min-height:100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+   
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-attachment: fixed;
+    flex-wrap: wrap;
 }
 
 html,body{
@@ -25,58 +26,155 @@ header h1 {
     text-align: center;
     font-size: 80px;
     font-family: 'Montserrat', sans-serif;
-    background-color: rgba(50, 50,50,50);
-    cursor: pointer;
-    transition: all 0,3s cubic-bezier(.98,.01,.95,.13);  
-    border: cornsilk 2px solid; 
+    background-color: rgba(50, 50,50,50);   
+    animation: enter 4s ease-in-out;
 }
 
-header h1:hover {
-    background-color: rgba(94, 93, 93, 40);
-}
-
-header menu {
+header #menu {
     margin: AUTO;
-    height:70%;
+    min-height:70%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
     display:flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-attachment: fixed;
+    background-attachment: fixed; 
 }
 
 header button{
     color: rgba(255, 255, 255, 255);
     padding: 30px;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     background-color: rgba(50, 50,50,50);
     cursor: pointer;
     transition: all 0,3s cubic-bezier(.98,.01,.95,.13);   
 }
 
+header button:hover {
+    background-color: rgba(94, 93, 93, 40);
+}
+
+/*SECTION*/
+
 section  {
-    background-color: rgb(50, 50, 50);
     margin: AUTO;
     height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 section h1 {
     margin-top:0px;
     padding: 30px;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Montserrat', sans-serif;
-    color: rgba(255, 255, 255, 255)
+    color: rgba(255, 255, 255, 255);
 
 }
 
+section h3 {
+    margin: 5% 5%;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, 255);
+    
+}
+
+/*FOOTER*/
+
+footer {
+    height: 150px;
+    background-color: rgba(34, 39, 67);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+footer #phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer #adresse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer #email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer #linkedin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+
+
+/*RESPONSIVE PHONE*/
+
+
+@media only screen and (max-width: 600px) {
+    header #menu  {
+        flex-wrap:nowrap;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    section{
+        flex-wrap:nowrap;
+        flex-direction: column;
+    }
+}
+
+/*ANIMATION*/ 
+
+@keyframes enter { 
+    from {
+        opacity: 0;
+        transform: translateY(100);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+
+}
+
+/*
 color: rgb(255, 255, 255);
 
 img source=""
 border radius 
 Adoucir les bordures de 50%
+*/
+
+

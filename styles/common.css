@@ -1,0 +1,66 @@
+html, body {
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+header {
+    background-color: rgba(50, 50, 50); 
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+
+footer {
+    height: 150px;
+    background-color: rgba(50, 50, 50);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+footer #phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer #adresse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer #email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer #linkedin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
