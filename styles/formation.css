@@ -1,4 +1,3 @@
-
 .xp{
 	min-height: 80vh;
 	width: 100%;
@@ -31,13 +30,13 @@
 	height: 100vh;
 	width: 100%;
 }
-#bde{
+#esdes{
 	background-color: #9fa8da;
 }
-#gones{
+#hanyang{
     background-color: #e8eaf6;
 }
-#open{
+#diderot{
 	background-color:#9fa8da;
 }
 .text-article h2{
@@ -47,13 +46,13 @@
 	color:  rgba(34, 39, 67);
 }
 .text-article h3{
-	font-size: 15px;
+	font-size: 16px;
     font-weight: 200;
     font-family: 'Montserrat', sans-serif;
 	color:  rgba(34, 39, 67);
 }
-.text-article p{
-	text-align: center;
+.text-article ul{
+	text-align: left;
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     color:  rgba(34, 39, 67);
