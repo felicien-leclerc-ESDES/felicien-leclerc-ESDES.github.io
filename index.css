@@ -36,6 +36,7 @@ html,body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    flex-wrap: wrap;
     
     display:flex;
     flex-direction: row;
