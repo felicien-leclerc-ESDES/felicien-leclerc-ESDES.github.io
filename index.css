@@ -45,7 +45,7 @@ header #menu {
     background-attachment: fixed; 
 }
 
-header button{
+header a{
     color: rgba(255, 255, 255, 255);
     padding: 30px;
     text-align: center;
@@ -53,10 +53,11 @@ header button{
     font-family: 'Montserrat', sans-serif;
     background-color: rgba(34, 39, 67);
     cursor: pointer;
+    text-decoration: none;
     transition: all 0,3s cubic-bezier(.98,.01,.95,.13);   
 }
 
-header button:hover {
+header a:hover {
     background-color: rgba(94, 93, 93, 40);
 }
 
