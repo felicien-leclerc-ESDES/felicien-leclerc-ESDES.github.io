@@ -1,6 +1,5 @@
-
 /*HEADER*/
-header { 
+.header1 { 
     margin: AUTO;
     background-image: url(images/formation.jpg);
     min-height:100%;
@@ -21,17 +20,17 @@ html,body{
     margin: 0;
 }
 
-header h1 {
+.header1 h1 {
     color: rgba(255, 255, 255, 255);
     padding: 30px;
     text-align: center;
     font-size: 80px;
     font-family: 'Montserrat', sans-serif;
-    background-color:rgba(34, 39, 67);   
+    background-color:rgb(34, 39, 67);   
     animation: enter 4s ease-in-out;
 }
 
-header #menu {
+.header1 #menu {
     margin: AUTO;
     min-height:70vh;
     background-size: cover;
@@ -45,20 +44,20 @@ header #menu {
     background-attachment: fixed; 
 }
 
-header a{
+.header1 a{
     color: rgba(255, 255, 255, 255);
     padding: 30px;
     text-align: center;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
-    background-color: rgba(34, 39, 67);
+    background-color: rgb(34, 39, 67);
     cursor: pointer;
     text-decoration: none;
-    transition: all 0,3s cubic-bezier(.98,.01,.95,.13);   
+    transition: all 0.3s cubic-bezier(.98,.01,.95,.13);   
 }
 
-header a:hover {
-    background-color: rgba(94, 93, 93, 40);
+.header1 a:hover {
+    background-color: rgb(94, 93, 93, 40);
 }
 
 /*SECTION*/
@@ -80,7 +79,7 @@ section h1 {
     text-align: center;
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
-    color:  rgba(34, 39, 67);
+    color:  rgb(34, 39, 67);
 
 }
 section h2 {
@@ -89,7 +88,7 @@ section h2 {
     text-align: center;
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
-    color:  rgba(34, 39, 67);
+    color:  rgb(34, 39, 67);
 }
 
 section p {
@@ -97,7 +96,7 @@ section p {
     text-align: center;
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
-    color:  rgba(34, 39, 67);
+    color:  rgb(34, 39, 67);
     margin-bottom: 10px;
     margin-top: 10px;   
 }
@@ -162,7 +161,7 @@ section p {
 @keyframes enter { 
     from {
         opacity: 0;
-        transform: translateY(100);
+        transform: translateY(0);
     }
     to {
         opacity: 1;

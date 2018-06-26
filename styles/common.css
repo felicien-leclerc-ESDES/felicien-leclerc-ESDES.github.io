@@ -4,9 +4,7 @@ html, body {
     margin:0;
     width: 100%;
 }
-a{
-    text-decoration: none;
-}
+
 header {
     background-color: rgba(34, 39, 67); 
     height: 150px;
