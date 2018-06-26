@@ -57,7 +57,7 @@ html,body{
 }
 
 .header1 a:hover {
-    background-color: rgb(94, 93, 93, 40);
+    background-color: rgba(94, 93, 93, 40);
 }
 
 /*SECTION*/
@@ -105,7 +105,7 @@ section p {
 
 .bottom{
     min-height: 20vh;
-    background-color: rgba(34, 39, 67);
+    background-color: rgb(34, 39, 67);
     display: flex;
     flex-direction: row;
     align-items: center;
